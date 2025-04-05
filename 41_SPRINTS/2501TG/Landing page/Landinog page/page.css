@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1500px;
+    margin: 10px;
+    padding: 50px;;
+}
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+background-color: #ffff52;
+border-radius: 20px;
+}
+
+li {
+ display: inline-block;
+ margin: 25px;
+}
+
+
+a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+    font-weight: bold;
+}
+
+main {
+   display: flex;
+   flex-direction: row;
+   margin-top: 100px;
+}
+
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsbold;
+}
+span {
+    color: rgb(132, 14, 201);
+}
+
+#inscreva-se-btn {
+    background-color: #673dff;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-break: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+form [type="submit"]{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(132, 14, 201);
+    color:rgb(201, 255, 196);
+    font-weight: bold;
+}
+
+form [type="submit"]{
+   cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    width: 500px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
