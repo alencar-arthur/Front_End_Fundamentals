@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(219, 230, 230);
+ text-align: center;
+ font-size: larger;
+    background-image:url(./istockphoto-1400711760-612x612.jpg) ;
+    }
+
+    
+    .paragrafo{
+       
+
+        text-align: center;
+    }
+
+.btn {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.btn::after {  
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(128, 8, 8, 0.5); 
+    transition: width 0.5s, height 0.5s, opacity 0.5s; 
+    border-radius: 60%;
+    transform: translate(-50%, -50%); 
+}
+
+.btn:active::after {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: 0s; 
+}
+
+.h1{
+    background-color: rgb(246, 237, 237);
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
