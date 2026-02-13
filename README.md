@@ -31,7 +31,7 @@ The projects here follow the professional standards of the **SENAI Front-End Dev
 * **Environment:** VS Code, Git/GitHub, Chrome DevTools.
 
 ## Learning Path
-Based on the **SENAI Professional Qualification**, this repository covers:
+This repository covers:
 1. Systems programming using core front-end technologies.
 2. User-friendly interface design.
 3. Compliance with technical requirements, quality standards, and sustainability.
